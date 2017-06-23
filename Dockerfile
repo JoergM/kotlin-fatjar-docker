@@ -1,5 +1,5 @@
 FROM openjdk:8-alpine
 
-COPY build/libs/kotlin-dynamo.jar kotlin-dynamo.jar
+COPY build/libs/kotlin-fatjar-docker.jar kotlin-fatjar-docker.jar
 
-CMD java -jar kotlin-dynamo.jar
+CMD java -jar kotlin-fatjar-docker.jar

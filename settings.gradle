@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'kotlin-dynamo'
+rootProject.name = 'kotlin-fatjar-docker'
